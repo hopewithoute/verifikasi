@@ -14,7 +14,7 @@ function startScan() {
             "Format: " + result.format + "<br/>" +
             "Cancelled: " + result.cancelled;
             resultDiv.innerHTML = s;
-        },
+        }, 
         function (error) {
             alert("Scanning failed: " + error);
         }
